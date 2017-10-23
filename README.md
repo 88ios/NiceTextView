@@ -42,12 +42,12 @@ NiceTextView有助于快速实现设置页面布局等
 
 
 
-![image］(https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/defautl.jpg)
+![image](https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/defautl.jpg)
 
-![image］(https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/more.jpg)
+![image](https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/more.jpg)
 
-![image］(https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/moreset.jpg)
-![image］(https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/set.jpg)
+![image](https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/moreset.jpg)
+![image](https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/set.jpg)
 
 
 
