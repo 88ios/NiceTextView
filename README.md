@@ -40,12 +40,14 @@ NiceTextView有助于快速实现设置页面布局等
 
 现在我们可以用5分钟的时间来完成京东设置页面的布局
 
-![image］(https://github.com/88ios/NiceTextView/blob/master/app/src/screenshots/defautl.jpg)
 
-![image］(https://github.com/88ios/NiceTextView/blob/master/app/src/screenshots/more.jpg)
 
-![image］(https://github.com/88ios/NiceTextView/blob/master/app/src/screenshots/moreset.jpg)
-![image］(https://github.com/88ios/NiceTextView/blob/master/app/src/screenshots/set.jpg)
+![image］(https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/defautl.jpg)
+
+![image］(https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/more.jpg)
+
+![image］(https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/moreset.jpg)
+![image］(https://raw.githubusercontent.com/88ios/NiceTextView/master/app/src/screenshots/set.jpg)
 
 
 
