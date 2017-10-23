@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ntv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sBottomLineMargin="0dp"
+                ntv:sLeftIconRes="@drawable/icon_gift"
+                ntv:sLeftTextString="积分商城" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sBottomLineMargin="0dp"
+                ntv:sLeftIconRes="@drawable/icon_love"
+                ntv:sLeftTextString="我的收藏" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sBottomLineMargin="0dp"
+                ntv:sLeftIconRes="@drawable/icon_book"
+                ntv:sLeftTextString="我的笔记" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sBottomLineMargin="0dp"
+                ntv:sLeftIconRes="@drawable/icon_rank"
+                ntv:sLeftTextString="会员中心" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                ntv:sLeftBottomTextColor2="@color/colorAccent"
+                ntv:sLeftBottomTextString="支付中心"
+                ntv:sLeftBottomTextString2="更多>>"
+                ntv:sLeftIconRes="@drawable/head_default"
+                ntv:sLeftTopTextString="在线支付"
+                ntv:sRightCheckBoxRes="@drawable/check_bg"
+                ntv:sRightCheckBoxShow="true" />
+
+
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                ntv:sLeftBottomTextColor2="@color/colorAccent"
+                ntv:sLeftBottomTextString="可用余额"
+                ntv:sLeftBottomTextString2="8元"
+                ntv:sLeftIconRes="@drawable/head_default"
+                ntv:sLeftTopTextString="余额支付"
+                ntv:sRightCheckBoxRes="@drawable/check_bg"
+                ntv:sRightCheckBoxShow="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

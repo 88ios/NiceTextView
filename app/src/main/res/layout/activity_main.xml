@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ntv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                ntv:sLeftIconRes="@drawable/head_default"
+                ntv:sLeftTextString="登录/注册"
+                ntv:sRightIconRes="@drawable/icon_right" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                ntv:sLeftTextString="会员俱乐部"
+                ntv:sRightIconRes="@drawable/icon_right" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sLeftTextString="PLUS会员"
+                ntv:sRightIconRes="@drawable/icon_right"
+                ntv:sRightTextColor="@color/text_right"
+                ntv:sRightTextString="开启6大尊享特权\u3000" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sLeftTextString="小白信用"
+                ntv:sRightIconRes="@drawable/icon_right" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sLeftTextString="地址管理"
+                ntv:sRightIconRes="@drawable/icon_right" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sLeftTextString="增票资质"
+                ntv:sRightIconRes="@drawable/icon_right" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                ntv:sLeftTextString="实名认证"
+                ntv:sRightIconRes="@drawable/icon_right" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sLeftTextString="账户安全"
+                ntv:sRightIconRes="@drawable/icon_right"
+                ntv:sRightTextColor="@color/text_right"
+                ntv:sRightTextString="密码和支付等管理\u3000" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sLeftTextString="关联账号"
+                ntv:sRightIconRes="@drawable/icon_right" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                ntv:sLeftTextString="设置"
+                ntv:sRightIconRes="@drawable/icon_right"
+                ntv:sRightTextColor="@color/text_right"
+                ntv:sRightTextString="清除缓存/关于等\u3000" />
+
+            <com.aikaifa.nicetextview.NiceTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                ntv:sLeftTextString="我的定制"
+                ntv:sRightIconRes="@drawable/icon_right"
+                ntv:sRightTextColor="@color/text_right"
+                ntv:sRightTextString="定制个性化卡片\u3000" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
